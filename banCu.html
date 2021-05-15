@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Pending</title>
+        <h1 class="nhom1">
+            <center>
+                Welcome to Tran's website
+            </center>
+        </h1>
+        <script src="https://kit.fontawesome.com/b75bfc6fa8.js">
+        </script>
+        <script>
+            function myFunction1() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction2() {
+                var x = document.getElementById("email");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myFunction3() {
+                var x = document.getElementById("about_me");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        
+        <style>
+                body{
+                    background: url("flower.jpg") no-repeat center center fixed;
+                    background-size: cover;
+                }            
+                .nhom1{
+                    position: relative;
+                    color:white;
+                    background:rgb(128, 27, 82);
+                    padding:1em;
+                    margin-bottom: 40px;
+                    margin-top: 20px;
+                    border: 4px solid rgb(233, 155, 190);
+                    font-style: times;
+                }     
+                .topnav {
+                    border: 4px solid rgb(233, 155, 190);
+                    background-color: rgb(233, 155, 190);
+                    position: relative;
+                }
+                .topnav #myLinks {
+                    display: none;
+                }
+                .topnav a {
+                    color: white;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                    display: block;
+                }
+                .topnav a.icon {
+                    background: rgb(128, 27, 82);
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .topnav a.icon_email{
+                    background: rgb(128, 27, 82);
+                    display: block;
+                    position: absolute;
+                    right: 1.3cm;
+                    top: 0;
+                }
+                .topnav a.icon_me{
+                    background: rgb(128, 27, 82);
+                    display: block;
+                    position: absolute;
+                    right: 2.65cm;
+                    top: 0;
+                }
+                .form a:hover {
+                    background-color: rgb(128, 27, 82);
+                    color: white;
+                }
+                .active {
+                    background-color: palevioletred;
+                    color: white;
+                }
+                
+            </style>
+</head>
+
+<body>
+    
+   <!--Icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!--Verbal Menu: 3parts-->
+    <div class="topnav">
+            <a href="#home" class="active">Home</a>
+        <div class="form">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="myLinks">
+                <a href="calculator.html">Calculator</a>
+                <a href="book.html">Comic books</a>
+                <a href="phim_me.html">Film</a>
+            </div>
+            <a href="mailto: tran081199@gmail.com" id="email" class="icon_email" onclick="myFunction2()">
+                <i class="fa fa-envelope"></i>
+            </a>
+            
+            <a href="about_me.html" id="about_me" class="icon_me" onclick="myFunction3()">
+                <i class="fa fa-id-card"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

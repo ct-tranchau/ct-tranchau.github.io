@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mini calculator
+        </title>
+        <style>
+            .form_word{
+                    font-style:times;
+                    color:rgb(255, 56, 165);
+                    padding:1em;
+                    font-size:35px;
+                    font-family:Comic Sans MS;
+            }
+            .maytinh{
+                    position: relative;
+                    margin-left: 30%;
+                    margin-right: 30%;
+                    margin-top: 5%;                   
+                    font-size: 2em;
+                    
+            }  
+            input[type="button"]{ 
+                    background-color:plum; 
+                    color: black; 
+                    border: solid black 2px; 
+                    font-size: 2em;
+                    width:2em;
+            } 
+            input[type="text"]{ 
+                    background-color:white; 
+                    border: solid black 2px; 
+                    font-size: 2em;
+                    width:6.1em;
+            } 
+            body{
+                background: url("green.jpeg") no-repeat center center fixed;
+                background-size: cover;
+            }  
+        </style>
+    </head>
+    <body>
+        </div>
+            <form name="calculator" class="maytinh">
+                <table border="5">
+                    <tr>
+                        <td colspan="4" class="form_word"><center>Basic function calculator </center> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="text" name="display" id="display" ></td>
+                        <td><input type="button"  value="AC" onclick="calculator.display.value = ''"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button"  value="1" onclick="calculator.display.value += '1'"></td>
+                        <td><input type="button"  value="2" onclick="calculator.display.value += '2'"></td>
+                        <td><input type="button"  value="3" onclick="calculator.display.value += '3'"></td>
+                        <td><input type="button"  value="+" onclick="calculator.display.value += '+'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="calculator.display.value += '4'"></td>
+                        <td><input type="button" value="5" onclick="calculator.display.value += '5'"></td>
+                        <td><input type="button" value="6" onclick="calculator.display.value += '6'"></td>
+                        <td><input type="button" value="-" onclick="calculator.display.value += '-'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button"  value="7" onclick="calculator.display.value += '7'"></td>
+                        <td><input type="button"  value="8" onclick="calculator.display.value += '8'"></td>
+                        <td><input type="button"  value="9" onclick="calculator.display.value += '9'"></td>
+                        <td><input type="button"  value="x" onclick="calculator.display.value += '*'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button"  value="." onclick="calculator.display.value += '.'"></td>
+                        <td><input type="button"  value="0" onclick="calculator.display.value += '0'"></td>
+                        <td><input type="button"  value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                        <td><input type="button"  value="/" onclick="calculator.display.value += '/'"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Books
+        </title>
+        <h1 class="title">
+                <a class="book"><img src="books.jpg" height="100" width="100"></a>
+                <a class="word">Your book?</a>           
+        </h1>
+        <style>
+            body{
+                background: url("mountain.jpg") no-repeat center center fixed;
+                background-size: cover;
+            }  
+            .title{
+                position: relative;
+                color:white;
+                background:rgb(17, 17, 167);
+                padding:1em;
+                margin-bottom: 40px;
+                margin-top: 20px;
+                border: 4px solid rgb(147, 142, 230);
+                font-family: Comic Sans MS;
+            }
+            .word{
+                position: absolute;    
+                left: 40%;
+                top: 30%;
+                font-size: 50px;
+            }
+            .book{
+                position: relative;    
+                left: 30%;
+                top: 20%;
+            }
+            .wrapper{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+            }
+            .box{
+            position: relative;
+            margin-right: 27%;
+            margin-left: 25%;
+            color:rgb(17, 17, 167);
+            
+            font-family: Comic Sans MS;
+            
+            text-align: center;               
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            
+            margin-bottom: 2%;
+            }
+            form.box input[type=text]:hover{
+                background-color: rgb(149, 222, 238);
+            }
+            * {
+               box-sizing: border-box;
+            }
+            form.box input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 3px solid black;
+            
+            
+            float: center;
+            width: 100%;
+            background: #f1f1f1;
+            }
+
+            form.box::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            #myLinks {
+            padding: 0;
+            margin: 0;
+            }
+
+           #myLinks div a {
+                text-align: center;
+                padding: 12px;
+                display: block;
+            }
+
+            #myLinks div a:hover:not(.header) {
+                background-color: rgb(149, 222, 238);
+            }     
+            li{
+                display: none;
+            }
+        </style>
+        <script>
+                function myFunction() {
+                    var input, filter, ul, div, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myLinks");
+                    div = ul.getElementsByTagName("div");
+                    for (i = 0; i < div.length; i++) {
+                        a = div[i].getElementsByTagName("a")[0];
+                        txtValue = a.textContent || a.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            div[i].style.display = "";
+                        } else {
+                            div[i].style.display = "none";
+                        }
+                    }
+                }
+                </script>
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <form class="box" action="action_page.php">
+            <input type="text" id="myInput" placeholder="Search for book.." onkeyup="myFunction()">
+        </form>
+        <ul class="wrapper" id="myLinks">
+                <div>
+                    <a href="http:\\adchau.com"><li>Doraemon</li><img src="dora.jpg" height="225" width="400"></a>
+                </div>
+                <div>
+                    <a href="https://kenhsinhvien.vn/forum/conan-reading-room.510/"><li>Conan</li><img src="conan.jpg" height="225" width="400"></a>
+                </div>
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Sa_%C4%90%C3%A9c"><li>Christina</li><img src="congvien.jpg" height="225" width="400"></a>
+                </div>
+                <div>
+                        <a href="http://truyentranh869.com/TheLoai/Trung%20qu%E1%BB%91c/"><li>Truyen tranh Trung Quoc</li><img src="tttrung.jpeg" height="225" width="400"></a>
+                </div>
+        </ul>
+
+    </body>
+</html>

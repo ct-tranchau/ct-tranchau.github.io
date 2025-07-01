@@ -16,12 +16,12 @@ Education
 
 Awards & Honors
 ======
-* GPSS Travel Fund Program (TFP) Awards, Summer 2025
-* 1st place prize for best speaker at the TPSC Symposium 2023 at Virginia Tech, 2023
-* 2nd place prize for Best Abstract Talk at the 2nd PCA Symposium, 2022
-* Whitfield Cobb Award for Academic Achievement, 2022
+* **GPSS Travel Fund Program (TFP) Awards, Summer 2025**
+* **1st place prize for best speaker at the TPSC Symposium 2023 at Virginia Tech, 2023**
+* **2nd place prize for Best Abstract Talk at the 2nd PCA Symposium, 2022**
+* **Whitfield Cobb Award for Academic Achievement, 2022** <br>
       This award is given to graduating seniors in the Department of Statistics with the highest overall GPA.
-* Ray A. Gaskins and I.J. Good Scholarship , 2021
+* **Ray A. Gaskins and I.J. Good Scholarship, 2021** <br>
       This scholarship is given to student have high academic achievement and devote to the community. 
  
 Skills

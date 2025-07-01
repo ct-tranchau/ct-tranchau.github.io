@@ -1,7 +1,7 @@
 ---
-title: "Undergraduate teaching assistant"
+title: "Statistical Methods"
 collection: teaching
-type: "Statistical Methods"
+type: "Undergraduate teaching assistant"
 permalink: /teaching/statTA
 venue: "Virginia Tech"
 date: 2022-01-01

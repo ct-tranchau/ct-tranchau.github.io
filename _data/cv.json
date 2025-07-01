@@ -1,61 +1,52 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tran N.(Nina) Chau",
+    "email": "tnchau at vt dot edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://ct-tranchau.github.io",
+    "summary": "Grad student @ Virginia Tech | AI for Genomics | Genetics, Bioinformatics, Computational Biology",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Blacksburg",
+      "countryCode": "Virginia",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=SOtDO2QAAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
+        "network": "LinkedIn",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://www.linkedin.com/in/tran-chau-ct"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/ct-tranchau"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Virginia Tech",
+      "area": "Ph.D. student in Genetics, Bioinformatics, and Computational Biology (GBCB) program",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Virginia Tech",
+      "area": "B.S. in Statistics, minor in Math",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2022",
       "gpa": null,
       "courses": []
     }
@@ -66,87 +57,109 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Gene Regulatory Network Modeling Using Single-Cell Multi-Omics in Plants",
+      "publisher": "Plant Gene Regulatory Networks: Methods and Protocols",
+      "releaseDate": "2023/9/9",
+      "website": "https://link.springer.com/protocol/10.1007/978-1-0716-3354-0_16",
+      "summary": "This paper presents a computational pipeline for integrating single-cell RNA-seq and ATAC-seq data to construct gene regulatory networks in plants, with demonstrated applicability across species."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Combined dilute alkali and milling process enhances the functionality and gut microbiota fermentability of insoluble corn fiber",
+      "publisher": "Food Chemistry",
+      "releaseDate": "2024/7/15",
+      "website": "https://www.sciencedirect.com/science/article/pii/S0308814624004643",
+      "summary": "As a co-author of this paper, I analyzed microbiome sequencing data to investigate how processed corn fiber influences gut microbial composition and enhances the production of beneficial short-chain fatty acids."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model",
+      "publisher": "Machine Learning in Computational Biology 2024, PMLR",
+      "releaseDate": "2024/6/19",
+      "website": "https://www.biorxiv.org/content/10.1101/2024.06.18.599629v1.full",
+      "summary": "This paper introduces PathoLM, a genome foundation model that predicts the pathogenicity of organisms directly from DNA sequences."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Advancing plant single-cell genomics with foundation models",
+      "publisher": "Current Opinion in Plant Biology",
+      "releaseDate": "2024/12/1",
+      "website": "https://www.sciencedirect.com/science/article/pii/S1369526624001572",
+      "summary": "This review paper explores how foundation models are transforming plant single-cell genomics by enabling cross-species integration, enhancing cell type identification, and addressing current challenges in plant biology."
+    },
+    {
+      "name": "Annotation of single-cell clusters using marker genes within and across species",
+      "publisher": "Guide to Plant Single-Cell Technology",
+      "releaseDate": "2025/1/1",
+      "website": "https://www.sciencedirect.com/science/article/abs/pii/B9780443237362000150",
+      "summary": "This chapter reviews current strategies for annotating plant single-cell clusters using marker genes, emphasizing the integration of manual curation, coexpression, and cross-species analyses."
+    },
+    {
+      "name": "Orthologous marker groups reveal broad cell identity conservation across plant single-cell transcriptomes",
+      "publisher": "Nature Communications",
+      "releaseDate": "2025/1/2",
+      "website": "https://www.nature.com/articles/s41467-024-55755-0",
+      "summary": "This paper introduces Orthologous Marker Gene Groups (OMGs), a computational method that enables accurate cell-type identification and cross-species comparison in plant single-cell RNA-seq datasets without requiring data integration, revealing broad cell identity conservation across 15 diverse plant species."
+    },
+    {
+      "name": "Cell and nuclear size are associated with chromosomal instability and tumorigenicity in cancer cells that undergo whole genome doubling",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025/4/2",
+      "website": "https://www.biorxiv.org/content/10.1101/2025.03.28.645986v1.full",
+      "summary": "This study shows that following whole genome doubling (WGD) in cancer cells, variations in cell and nuclear size influence chromosomal instability, tumorigenicity, and patient survival, with smaller tetraploid cells exhibiting greater fitness and tumor-forming potential."
+    },
+    {
+      "name": "scCoBench: Benchmarking single cell RNA-seq co-expression using promoter-reporter lines",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025",
+      "website": "https://www.biorxiv.org/content/10.1101/2025.05.26.656221v1.full",
+      "summary": "This study introduces scCoBench, a benchmarking framework using promoter-reporter lines to evaluate gene co-expression analysis in single-cell RNA-seq data, demonstrating that deep learning-based imputation significantly improves biologically meaningful co-expression patterns."
+    },
+    {
+      "name": "PLM-OMG: Protein Language Model-Based Ortholog Detection for Cross-Species Cell Type Mapping",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025",
+      "website": "https://www.biorxiv.org/content/10.1101/2025.05.30.657127v1.full",
+      "summary": "The paper presents PLM-OMG, a protein language model framework for efficient, cross-species ortholog detection and cell type mapping in plants."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Discovery of conserved marker genes for cross-species cell type assignment by machine learning",
+      "event": "2022 Plant Cell Atlas Symposium",
+      "date": "Dec 12-13th 2022",
+      "website": "https://www.youtube.com/watch?v=ZbbZ09iyric&ab_channel=PlantCellAtlas",
+      "location": "San Francisco, CA, USA"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Cross-Species Single-Cell Annotation with Orthologous Marker Gene Groups",
+      "event": "2024 Plant and Animal genome conference (PAG31)",
+      "date": "Jan 12-17th 2024",
+      "website": "https://pag.confex.com/pag/31/meetingapp.cgi/Paper/53302",
+      "location": "San Diego, CA, USA"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Benchmarking Gene-Gene Correlation Metrics and Imputation Methods in Single-Cell Transcriptomics",
+      "event": "2025 Gordon Research Conferences, Single-Cell Approaches in Plant Biology",
+      "date": "Aug 9-15th 2025",
+      "location": "University of Southern Maine, Portland, Maine"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Statistical Methods",
+      "institution": "Virginia Tech, Blacksburg, Virginia, US",
+      "date": "Jan - May, 2025",
+      "role": "Undergraduate teaching assistant"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
+      "course": "Systems Biology",
+      "institution": "University of Mississippi, Oxford, Mississippi, US",
+      "date": "08/31/2023",
+      "role": "Guest lecture"
+    },
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "course": "Intro to Genomic Data Science",
+      "institution": "Virginia Tech, Blacksburg, Virginia, US",
+      "date": "Aug - Dec, 2024",
+      "role": "Graduate teaching assistant"
     }
   ]
 }

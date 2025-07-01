@@ -1,5 +1,5 @@
 ---
-title: "Talk 1 on Relevant Topic in Your Field"
+title: "Chau Ngoc Tran"
 collection: talks
 type: "Talk"
 permalink: /talks/chaungoc

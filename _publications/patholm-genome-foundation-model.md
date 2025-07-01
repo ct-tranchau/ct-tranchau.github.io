@@ -1,7 +1,7 @@
 ---
 title: "PathoLM: Identifying pathogenicity from the DNA sequence through the Genome Foundation Model"
 collection: publications
-permalink: /publication/patholm-genome-foundation-model
+permalink: /publications/patholm-genome-foundation-model
 excerpt: "This paper introduces PathoLM, a genome foundation model that predicts the pathogenicity of organisms directly from DNA sequences."
 date: 2024-06-19
 authors: "Sajib Acharjee Dip, Uddip Acharjee Shuvo, Tran Chau, Haoqiu Song, Petra Choi, Xuan Wang, Liqing Zhang"

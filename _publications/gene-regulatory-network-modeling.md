@@ -1,7 +1,7 @@
 ---
 title: "Gene Regulatory Network Modeling Using Single-Cell Multi-Omics in Plants"
 collection: publications
-permalink: /publication/gene-regulatory-network-modeling
+permalink: /publications/gene-regulatory-network-modeling
 excerpt: "This paper presents a computational pipeline for integrating single-cell RNA-seq and ATAC-seq data to construct gene regulatory networks in plants, with demonstrated applicability across species."
 date: 2023-09-09
 authors: "Tran Chau, Prakash Timilsena, Song Li"

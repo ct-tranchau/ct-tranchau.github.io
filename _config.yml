@@ -29,7 +29,7 @@ author:
   location         : "Blacksburg, Virginia"
   employer         : "Virginia Tech"
   uri              : # URL
-  email            : "tnchau at vt dot edu" 
+  email            : "tnchau@vt.edu" 
 
   # Academic websites
   academia         : # URL
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/tran-chau-ct"
+  linkedin         : "www.linkedin.com/in/tran-chau-ct"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

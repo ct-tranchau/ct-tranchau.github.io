@@ -11,35 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Genetics, Bioinformatics, and Computational Biology (GBCB) program, Virginia Tech, 2026 (expected)
+* B.S. in Statistics, minor in Math, Virginia Tech, 2022
 
-Work experience
+Awards & Honors
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* GPSS Travel Fund Program (TFP) Awards, Summer 2025
+* 1st place prize for best speaker at the TPSC Symposium 2023 at Virginia Tech, 2023
+* 2nd place prize for Best Abstract Talk at the 2nd PCA Symposium, 2022
+* Whitfield Cobb Award for Academic Achievement, 2022
+      This award is given to graduating seniors in the Department of Statistics with the highest overall GPA.
+* Ray A. Gaskins and I.J. Good Scholarship , 2021
+      This scholarship is given to student have high academic achievement and devote to the community. 
+ 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* R, Python
+* Data Extraction
+* Linux, Photoshop
+* Data Analysis
+* Pipeline Development
+* Computational Biology
+* Machine Learning
+* Deep Learning
+* AI in Genomics
+* Presentation Skills
+* Technical Writing
+* Team Coordination
+* Stakeholder Management
+* Project Management
+* People Management
 
 Publications
 ======
@@ -59,6 +60,17 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Certifications
 ======
-* Currently signed in to 43 different slack teams
+* Society of Actuaries Exam P & Casualty Actuarial Society Exam 1, 2021. Certification Number: 70580
+* OSHA 10 Hour General Industry Outreach. Reference Number: 26-707350881
+* Society of Actuaries Exam SRM. January 2022. Certification Number: 50077
+
+Outreach
+======
+* Plant single-cell analysis workshop organizer, Virginia Tech, Summer 2025
+
+Journal reviewer (Last 24 months)
+======
+* Frontiers in Plant Science
+  

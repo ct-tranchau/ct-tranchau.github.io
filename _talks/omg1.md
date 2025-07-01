@@ -6,4 +6,4 @@ permalink: /talks/omg1
 venue: "2022 Plant Cell Atlas Symposium"
 date: 12-12-2022
 ---
-[More information here]([http://example2.com](https://www.youtube.com/watch?v=ZbbZ09iyric&ab_channel=PlantCellAtlas))
+[More information here](https://www.youtube.com/watch?v=ZbbZ09iyric&ab_channel=PlantCellAtlas)

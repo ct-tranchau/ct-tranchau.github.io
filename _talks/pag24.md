@@ -7,3 +7,4 @@ venue: "2024 Plant and Animal genome conference (PAG31)"
 date: 2024-01-12
 location: "San Diego, CA, USA"
 ---
+[More information here](https://pag.confex.com/pag/31/meetingapp.cgi/Paper/53302)

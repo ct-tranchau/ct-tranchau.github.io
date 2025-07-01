@@ -1,7 +1,7 @@
 ---
 title: 'Tui met lam rui nhe'
 date: 2014-08-14
-permalink: /posts/chaungoc
+permalink: /posts/chaungoc/
 tags:
   - cool posts
   - category1

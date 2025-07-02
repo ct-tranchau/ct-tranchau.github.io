@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 ## Welcome! I'm Tran N. (Nina) Chau 👋
 
 I am a Ph.D. student in **Genetics, Bioinformatics, and Computational Biology (GBCB)** at **Virginia Tech**. My research focuses on using **artificial intelligence and computational tools** to solve complex problems in **genomics, plant biology, and microbiome analysis.**
